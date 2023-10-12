@@ -1,0 +1,9 @@
+Human> describe the image
+Bot [0.37 s]> nature
+Human> are there animals in the image?
+Bot [0.12 s]> yes
+Human> what sort of animals are in the image?
+Bot [0.14 s]> dogs
+Human> what sort of dogs are in the image?
+Bot [0.14 s]> golden retriever
+Human> q

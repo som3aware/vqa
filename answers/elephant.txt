@@ -1,0 +1,11 @@
+Human> describe the image
+Bot [0.3 s]> elephant
+Human> how many elephants are in the image?
+Bot [0.16 s]> 1
+Human> how many fangs does the elephant have?
+Bot [0.16 s]> 2
+Human> what else can be found in the image besdies the elephant?
+Bot [0.16 s]> grass
+Human> are there any clouds in the image?
+Bot [0.16 s]> yes
+Human> q

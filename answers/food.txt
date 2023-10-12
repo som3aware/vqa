@@ -1,0 +1,17 @@
+Human> describe the image
+Bot [0.31 s]> food
+Human> what sort of food is in the image?
+Bot [0.16 s]> vegetables
+Human> what sort of vegetables are in the image?                    
+Bot [0.16 s]> carrots
+Human> what sort of other vegetables can be found in the image?
+Bot [0.16 s]> carrots
+Human> does the image contain apples?
+Bot [0.16 s]> no
+Human> does the image contain chocolate?
+Bot [0.16 s]> yes
+Human> does the image contain avocado?
+Bot [0.16 s]> no
+Human> does the image contain salmon?
+Bot [0.16 s]> yes
+Human> q

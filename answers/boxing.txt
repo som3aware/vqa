@@ -1,0 +1,23 @@
+Human> describe the image
+Bot [0.28 s]> black and white
+Human> are there humans in the image?
+Bot [0.12 s]> yes
+Human> how many humans are in the image?
+Bot [0.13 s]> 2
+Human> what are the humans doing in the image?
+Bot [0.12 s]> playing
+Human> what are the umans playing in the image?
+Bot [0.13 s]> nothing
+Human> what sort of sport are the humans playing in the image?
+Bot [0.12 s]> baseball
+Human> are the humans playing boxing?
+Bot [0.12 s]> yes
+Human> how many gloves are in the image?
+Bot [0.13 s]> 2
+Human> are there 4 gloves in the image?
+Bot [0.12 s]> no
+Human> are there any ropes in the image?
+Bot [0.12 s]> no
+Human> are there any trees in the image?
+Bot [0.12 s]> yes
+Human> q

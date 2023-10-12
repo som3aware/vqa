@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "visual-qa"
+version = "0.1.0"
+description = "A streamlit app for visual question answering"
+authors = ["som3aware <ahmed.ismail@nodogoro.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = "^4.34.0"
+torch = "^2.1.0"
+Pillow = "^10.0.1"
+streamlit = "^1.27.2"
+openai = "^0.28.1"
+langchain = "^0.0.312"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
