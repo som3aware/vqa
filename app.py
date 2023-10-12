@@ -11,13 +11,13 @@ blip_processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning
 blip_model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-large")
 
 # image
-image = Image.open("./images/earth.gif")
+image = Image.open("./images/food.jpeg").convert("RGB")
 
 # first question
 text = input("Human> ")
 
 # function to answer questions about an image
-def get_vilt_answer(text):
+def get_vqa_answer(text):
     # prepare inputs
     encoding = vilt_processor(image, text, return_tensors="pt")
 
@@ -29,14 +29,15 @@ def get_vilt_answer(text):
 
 # function to provide a caption for an image
 def get_img_caption():
-    inputs = blip_processor(raw_image, return_tensors="pt")
-    out = blip_model.generate(**inputs)
+    inputs = blip_processor(image, return_tensors="pt")
+    out = blip_model.generate(**inputs, max_new_tokens=1000)
     return blip_processor.decode(out[0], skip_special_tokens=True)
 
 while text != 'q':
     # print the answer
     start = time.time()
-    answer = get_vilt_answer(text);
+    caption = get_img_caption();
+    answer = get_vqa_answer(text)
     end = time.time()
 
     print(f"Bot [{round(end-start, 2)} s]>", answer)
