@@ -1,3 +1,9 @@
+Inference (BLIP)
+----------------
+there are two dogs sitting in the grass with flowers in the background
+
+Chat (VILT)
+-----------
 Human> describe the image
 Bot [0.37 s]> nature
 Human> are there animals in the image?

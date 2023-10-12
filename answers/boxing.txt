@@ -1,3 +1,9 @@
+Inference (BLIP)
+----------------
+two men in boxing stance with gloves on in a ring
+
+Chat (VILT)
+-----------
 Human> describe the image
 Bot [0.28 s]> black and white
 Human> are there humans in the image?

@@ -1,3 +1,9 @@
+Inference (BLIP)
+----------------
+there are many different foods that are on a table together
+
+Chat (VILT)
+-----------
 Human> describe the image
 Bot [0.31 s]> food
 Human> what sort of food is in the image?
